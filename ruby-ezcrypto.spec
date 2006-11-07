@@ -1,4 +1,5 @@
 Summary:	Ruby EZ Crypto Library
+Summary(pl):	Biblioteka EZ Crypto dla jêzyka Ruby
 Name:		ruby-ezcrypto
 Version:	0.7
 Release:	1
@@ -6,7 +7,7 @@ License:	GPL
 Group:		Development/Languages
 Source0:	http://rubyforge.org/frs/download.php/13089/ezcrypto-0.7.tgz	
 # Source0-md5:	1da109470b0cbfcfbd571e8aae99f973
-URL:		httpp://ezcrypto.rubyforge.org
+URL:		http://ezcrypto.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
 BuildRequires:	setup.rb = 3.3.1
@@ -15,6 +16,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Ruby EZ crypto library.
+
+%description -l pl
+Biblioteka EZ Crypto dla jêzyka Ruby.
 
 %prep
 %setup -q -n ezcrypto-%{version}
