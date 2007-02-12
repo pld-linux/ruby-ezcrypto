@@ -1,5 +1,5 @@
 Summary:	Ruby EZ Crypto Library
-Summary(pl.UTF-8):   Biblioteka EZ Crypto dla języka Ruby
+Summary(pl.UTF-8):	Biblioteka EZ Crypto dla języka Ruby
 Name:		ruby-ezcrypto
 Version:	0.7
 Release:	1
