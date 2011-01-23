@@ -10,7 +10,7 @@ Source0:	http://rubyforge.org/frs/download.php/13089/ezcrypto-0.7.tgz
 URL:		http://ezcrypto.rubyforge.org/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-BuildRequires:	setup.rb = 3.4.1
+BuildRequires:	setup.rb >= 3.4.1
 %{?ruby_mod_ver_requires_eq}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
